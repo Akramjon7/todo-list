@@ -86,10 +86,7 @@ form2.addEventListener('submit', (e) => {
             closeModal()
             localStorage.setItem('spiska', JSON.stringify(list.innerHTML))
       }else {
-            notif.classList.add('err')
-            setTimeout(() => {
-                  notif.classList.remove('err')
-            }, 1900);
+            alert('please enter a task')
       }
       form2.reset()
 })
