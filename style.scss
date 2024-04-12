@@ -97,25 +97,7 @@
       color: #fff;
       background-color: #02ff5a56;
 }
-.notif{
-      color: #333;
-      background-color: rgb(255, 0, 0);
-      border: 1px solid rgb(232, 14, 14);
-      font-family: 'Poppins', sans-serif;
-      width: 400px;
-      text-align: center;
-      justify-content: center;
-      padding: 15px;
-      border-radius: 50px;
-      position: fixed;
-      right: 250px;
-      transition: transform .9s ease-in;
-      transform: translateY(-999px);
-}
-.err{
-      transform: translateY(20px);
-      z-index: 9999;
-}
+
 .bg-modal{
       height: 100vh;
       width: 100%;
